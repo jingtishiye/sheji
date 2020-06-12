@@ -1,0 +1,22 @@
+﻿@charset "utf-8";
+
+ 
+ 
+.mr_frbox {  height:386px; width:980px; position:relative; margin:0 auto; }
+
+.mr_frBtnL { position:absolute; left:10px; top:170px; z-index:9998; cursor:pointer; display:block; width:20px; height:44px; background-image:url(../images/gleft.png); background-repeat:no-repeat; background-size:100% 100%; background-color:#333333;z-index:9999;  }
+
+.mr_frBtnR {position:absolute; right:10px; top:170px; z-index:9998;cursor:pointer; display:block; width:20px; height:44px;background-image:url(../images/gright.png); background-repeat:no-repeat; background-size:100% 100%;background-color:#333333; z-index:9999; }
+
+
+.mr_frBtnL , .mr_frBtnR { width: 30px; height: 34px;  position: absolute; top: 170px; cursor:pointer; z-index: 10; filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity: 0.5;opacity:0.5; background: url(../images/sprite.png) no-repeat #000; }
+.mr_frBtnL{background-position: -255px -34px; left:10px;}
+.mr_frBtnR{background-position: -289px -35px; right:10px;}
+.mr_frBtnL:hover , .mr_frBtnR:hover{  filter:alpha(opacity=75);-moz-opacity:0.75;-khtml-opacity: 0.75;opacity:0.75;}
+
+
+
+.mr_frUl { height:386px; overflow:hidden;position:relative;}
+.mr_frUl ul li {  width:195px;   height:386px; overflow:hidden;display:inline;position:relative; text-align:center; float:left;}
+
+ 

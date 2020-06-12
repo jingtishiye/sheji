@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* Created in September */
+.arrow {
+    display: inline-block;
+    position: relative;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #000 transparent transparent;
+}
+.arrow:before {
+    content: '';
+    border-width: 6px;
+    border-style: solid;
+    border-color: #fff transparent transparent;
+    position: absolute;
+    top: -8px;
+    left: -6px;
+    display: inline-block;
+}
+.arrow_up {
+    top: -2px;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.arrow_right {
+    left: 4px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+.arrow_down {
+    top: 5px;
+}
+.arrow_left {
+    left: -4px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}

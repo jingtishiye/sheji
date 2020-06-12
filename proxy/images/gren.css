@@ -1,0 +1,29 @@
+@charset "utf-8";
+input, select, textarea {
+	font-family:'微软雅黑';
+}
+.yaheiT{font-family:'微软雅黑'!important;}
+.mx-w .tit { color:#000; font-size:36px; text-align:center; padding:50px 0; margin-top:20px;}
+
+.proxy-banner {width: 100%;height: 520px;background:url(city-dl-banner.jpg) center top no-repeat; }
+.proxy-box {width: 100%;background: #f3f3f3;}
+.proxy-w {height: 700px;background: url(city-dl-03.gif) center top no-repeat;overflow:hidden;}
+.proxy-w .call-w { width:435px; height:90px; font-size:24px; color:#fff; margin:480px auto 0; text-align:center;}
+.proxy-w .call-w .call-l { width:135px; height:90px; background:#b83100; float:left; line-height:90px;}
+.proxy-w .call-w .call-r { width:300px; height:72px; padding: 9px 0; background:#ff4400; float:left;line-height:36px;}
+.layout-index { width:1220px; margin:0 auto;}
+
+.materialTogeterW{width:310px;height:456px;padding:25px 0 0 35px;background:#fff;}
+.materialTogeterW .materialTogeterFrom{}
+.materialTogeterW .materialTogeterFrom .row{position:relative;width:276px;_width:279px;margin-bottom:12px;}
+.materialTogeterW .materialTogeterFrom .row .names{float:left;width:78px;height:31px;line-height:31px;color:#000;font-size:14px;}
+.materialTogeterW .materialTogeterFrom .row .inp{float:left;display:block;width:186px;height:29px;line-height:29px;padding:0 5px;border:1px solid #cccccc;}
+.materialTogeterW .materialTogeterFrom .row textarea{float:left;display:block;width:186px;height:62px;line-height:20px;padding:5px 5px;border:1px solid #cccccc;resize:none;}
+.materialTogeterW .materialTogeterFrom .row .sel{float:left;display:block;width:90px;height:31px;line-height:31px;padding:0;border:1px solid #cccccc;height:22px\9;color:#6d6d6d;}
+.materialTogeterW .materialTogeterFrom .row .province_w{position:relative;float:left;margin-right:18px;height:22px\9;margin-top:7px\9;}
+.materialTogeterW .materialTogeterFrom .row .city_w{position:relative;float:left;height:22px\9;margin-top:7px\9;}
+.materialTogeterW .materialTogeterFrom .row .category{width:198px;}
+.materialTogeterW .materialTogeterFrom .row .apply_btn{width:276px;height:40px;line-height:40px;text-align:center;color:#fff;cursor:pointer;background:#ff4400;font-size:16px;border:0;}
+.materialTogeterW .materialTogeterFrom .row .t3{color:#000000;}
+.materialTogeterW .materialTogeterFrom .row .t3 span{color:#ff4400;}
+.materialTogeterW .materialTogeterFrom .err{display:none;position:absolute;top:-21px;right:0;padding:0 5px;height:20px;line-height:20px;color:#f93500;overflow:hidden;font-weight:bold;z-index:10;background:#fffbfc;border:1px solid #f93500;}

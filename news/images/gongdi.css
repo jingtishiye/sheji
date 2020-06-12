@@ -1,0 +1,43 @@
+﻿ 
+ 
+.mainBar{width:890px;}
+
+.mod-sjs .sjs-list{overflow: hidden;border: 1px solid #efefef;}
+.mod-sjs .sjs-list li{position: relative;      vertical-align: top;      border-top: 1px solid #efefef;      overflow: hidden;      padding: 20px 21px;      margin-top: -1px;}
+.mod-sjs .sjs-list li .box{ width: 841px; overflow:hidden;}
+.mod-sjs .sjs-list li .box a.pic{float:left;width: 120px;}
+.mod-sjs .sjs-list li .box a.pic img{ border-radius:50%;border: 1px solid #cccccc;}
+.mod-sjs .sjs-list li .box a.pic:hover img{opacity:0.85;}
+.mod-sjs .sjs-list li .box .info{float: left; width: 538px; margin-left:20px;line-height: 30px;font-size: 13px;}
+.mod-sjs .sjs-list li .box .info a{ color:#333;font-size: 20px;margin-right: 20px;}
+.mod-sjs .sjs-list li .box .info a:hover{ color: #f36f20; }
+.mod-sjs .sjs-list li .box .info p{ color: #888888; }
+.mod-sjs .sjs-list li .box .info .gray-3{ color:#333333; }
+.mod-sjs .sjs-list li .box .btn{ float:right; text-align:right;margin-top:20px;color: #333;}
+.mod-sjs .sjs-list li .box .btn .book span{font-size: 24px;font-family: 'Arial'; color: #ffc432; margin-right: 5px;}
+.mod-sjs .sjs-list li .box .btn a.form-btn{padding:8px 40px;margin-top: 10px;border-radius: 5px; background:#f36f20; display:block; font-size:16px; color:#FFFFFF;}
+.mod-sjs .sjs-list li .box .btn a.form-btn:hover { background:#ed600b;}
+.mod-sjs .sjs-list li .case{margin: 20px 0px 0px;overflow: hidden;width: 849px;}
+.mod-sjs .sjs-list li .case li{margin-right: 10px; padding:0;width: 200px;float: left;border-top: 0;overflow: hidden;}
+.mod-sjs .sjs-list li .case li a{display: block; position: relative;color:#fff;}
+.mod-sjs .sjs-list li .case li a .info{position:absolute;top: -280px;left:0px;width: 175px;height: 135px;font-size: 14px;line-height: 28px;padding: 65px 0px 0px 25px;background:url(hsbg.png) repeat;-moz-transition: all .3s linear 0s;-webkit-transition: all .3s linear;-o-transition: all .3s linear 0s;transition: all .3s linear 0s;overflow: hidden;}
+.mod-sjs .sjs-list li .case li a:hover{background:#fafafa;}
+.mod-sjs .sjs-list li .case li a:hover .info{top:0px;}
+/* 设计团队情页*/
+.mod-sjs .detail{overflow: hidden;}
+.mod-sjs .detail .pic{width: 210px;text-align:center;}
+.mod-sjs .detail .pic .tip{color: #b5b5b5;}
+.mod-sjs .detail .pic .tip .icon{padding-left: 13px;background-position: -250px -19px;margin: 0px 4px;}
+.mod-sjs .detail .pic .form-btn{width: 100%;height: 48px;padding: 0;line-height: 48px;}
+.mod-sjs .detail .intro{width: 645px;}
+.mod-sjs .detail .intro .tit{background-color:#fff;margin: 10px 0px 15px;height:32px;}
+.mod-sjs .detail .intro .tit h2{font-size: 24px;color: #333;float:left;line-height: 32px;}
+.mod-sjs .detail .intro .tit span{color: #cc6633;font-size: 12px;margin-left: 10px;font-family:"微软雅黑","黑体","宋体";float:left;padding-top: 8px;}
+.mod-sjs .detail .intro .info{font-size:14px;line-height:24px;}
+.mod-sjs .detail .intro .info p{margin: 0px 0px 14px;}
+.mod-sjs .detail .intro .info p span{margin-right: 10px;}
+.mod-sjs .xgt-list{ width: 895px;margin-bottom: 0;}
+.mod-sjs .xgt-list li{margin: 0 17px 13px 0;}
+ 
+
+ 

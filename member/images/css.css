@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+ .subwd{ width:1000px;margin:0px auto;}
+ 
+.lt{float:left;}
+.rt{float:right;}
+.cl{ clear:both; height:0px;}
+.none{ display:none;}
+
+.fontcl1{color:#009152; }
+.fontcl2{ color:#f4a21a;}
+ .tit{ font-size:14px; color:#555;}
+ 
+ .login_box{ margin:20px 0px 50px 0; border:1px solid #ccc; box-shadow:0px 0px 2px #ccc; padding:35px;}
+.login_lt{ border-right:1px solid #ccc; padding-right:30px; width:620px; }
+.login_box h2{ border-bottom:1px solid #ccc; overflow:hidden; line-height:40px; margin-bottom:30px;}
+.login_box a:hover{ color:#fe7902;}
+.login_rt{width:250px;}
+.login_lt table td.title{ font-size:14px; text-align:right; width:60px; padding-right:10px;}
+.login_lt table td.middle{ width:280px;}
+.login_lt table td{ height:50px;}
+.login_lt table td p.input{ line-height:34px; border:1px solid #ccc;height:34px; width:280px; padding:0px; font-family:'微软雅黑';}
+.login_lt table td p.short{width:150px;}
+.login_lt table td p input{ border:none;}
+.login_lt table td p input.text{ width:230px;}
+.login_lt table td p input.short{ width:90px;}
+.login_lt table td span.ico_list{ width:42px; height:34px; border-right:1px solid #ccc; margin-left:0px; vertical-align:top;}
+.login_lt table td span.username_ico{ background-position:-51px -82px;}
+.login_lt table td span.password_ico{background-position:-94px -82px;}
+.login_lt table td span.yanzheng_ico{background-position:-137px -82px;}
+.login_lt table td .btn{ width:150px; height:35px; background:#fe9602; border:none; font-size:16px;}
+.login_rt h3{ border-top:1px solid #ccc; margin-top:20px;overflow:hidden; line-height:40px;}
+.login_rt a.ico_list{ width:140px; height:32px; margin:5px 0px;}
+.login_rt a.weibo_login{ background-position:-301px 0px;}
+.login_rt a.qq_login{ background-position:-301px -32px;}
+.bar{ background:url(progressbar.png) no-repeat; display:inline-block;}
+.register_one{ width:930px; height:36px; background-position:0px -45px; margin-bottom:20px;}
+.register_two{ width:930px; height:36px; background-position:0px -82px; margin-bottom:20px;}
+
+ul.register_list{ overflow:hidden;}
+ul.register_list li{ float:left; margin:0px 0px 15px 15px; padding:10px; border:1px solid #ccc; width:277px;}
+ul.register_list li p.tit{ font-size:16px; margin-bottom:5px;}
+ul.register_list li a.btn{ margin-top:5px; line-height:30px;}
+ul.register_list li a.btn:hover{ color:#fff;}
+ul.register_list li.first{ margin-left:0px;}
+ul.register_list li p{ line-height:25px;}
+
+ul.register_list li a.shangjia_btn{ background:#41b5ff;}
+
+a.btn_main_big{ width:100px; line-height:32px; background:#FA4C00;color:#fff; font-size:16px; border:none; display:block; text-align:center; margin-top:10px;}
+a:hover.btn_main_big{color:#ffff00;}
+input.text,select.text,textarea.text{outline:none; border:1px solid #e0e0e0; height:26px; line-height:26px; padding:3px 0px 3px 5px;font-size:12px; color:#555;font-family:'微软雅黑';} 
+
+.btns{ width:135px; line-height:32px; background:#FA4C00;color:#fff; font-size:16px; border:none; display:block; text-align:center; margin-top:10px;font-family:'微软雅黑'; cursor:pointer;}
